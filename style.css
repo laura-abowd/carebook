@@ -1,12 +1,29 @@
 /* this is a comment in css */
-
-.index-h1 {
-  color: #06D6A0;
-  font-size: 40px;
-  margin: 0px;
-  text-align: left;
+:root {
+  background-color: #ffcd40;
+  font-family: 'Roboto', sans-serif;
 }
 
-div {
-  background-color: #FFFCF9;
+h1 {
+  color: black;
+  font-size: 40px;
+  /* font-weight: 700; */
+  margin: 0px;
+}
+
+/* h2 {
+  font-weight: 400;
+} */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+  max-width: 800px;
+  background-color: #ffe8a8;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }

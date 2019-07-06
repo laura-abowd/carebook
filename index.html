@@ -4,12 +4,29 @@
     <title>Care Book</title>
     <meta charset="utf-8">
     <link rel= "stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <!-- this is a commment in html -->
-      <h1 class="index-h1"> Care Book </h1>
-      <p>Keep your healthcare on track.</p>
+    <div class="container">
+      <div>
+        <!-- this is a commment in html -->
+        <h1>Care Book</h1>
+        <img src="images/carebookLogo.png" alt="carebook logo">
+        <h2>Keep your healthcare on track.</h2>
+        <a href="appointments.html">View my appointments.</a>
+      </div>
+      <div class="form">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" value="">
+        <label for="birthday">Enter your bithday:</label>
+        <input type="date" id="birthday" value="">
+        <label for="care-select">Select care plan:</label>
+        <select id="care-select">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="neutral">Neutral</option>
+        </select>
+      </div>
     </div>
   </body>
 </html>
