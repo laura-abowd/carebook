@@ -7,13 +7,22 @@
 h1 {
   color: black;
   font-size: 40px;
-  /* font-weight: 700; */
-  margin: 0px;
 }
 
-/* h2 {
-  font-weight: 400;
-} */
+a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin: 20px 0px;
+  border-radius: 500px;
+}
+
+select {
+  background-color: white;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
