@@ -1,38 +1,130 @@
 /* this is a comment in css */
 :root {
-  background-color: #ffcd40;
+  background-color: #E6EBE0;
   font-family: 'Roboto', sans-serif;
+  color: #3F3D56;
+}
+body {
+  margin: 0;
 }
 
-h1 {
-  color: black;
-  font-size: 40px;
+.content-wrapper {
+  position: relative;
+  width: 100%
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
 }
 
-a {
+
+.header-container {
+  background-color: #C8C5B7;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-content {
+  width: 100%;
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn {
+  color: #3F3D56;
+}
+
+.nav-img {
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+.nav-btn {
+  background: none;
+  background-color: inherit;
+	border: none;
+	padding: 10px 15px;
+	font-weight: bolder;
+  font-size: 24px;
+  outline: none
+}
+
+.nav-btn:hover {
+  text-decoration: underline;
+}
+
+.hero-image {
+  max-width: 500px;
+  justify-content: center;
+  /* padding: 40px; */
+}
+
+a.button-main {
   text-decoration: none;
-  background-color: black;
+  background-color: #36C9C6;
   color: white;
   text-align: center;
+  text-transform: uppercase;
   padding: 12px;
   margin: 20px 0px;
   border-radius: 500px;
+}
+
+a.text-link {
+  text-decoration: none;
+  text-align: center;
 }
 
 select {
   background-color: white;
 }
 
+.site-container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: ". .";
-  max-width: 800px;
-  background-color: #ffe8a8;
+  grid-template-columns: 2fr 1fr;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  max-width: 400px;
+}
+
+.content-center {
+  background-color: #C8C5B7;
+  text-align: center;
+  max-width: 940px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+#center-image {
+  max-width: 300px;
+}
+
+.site-footer {
+  background-color: white;
+}
+
+/* .footer-elements {
+  background-color: inherit;
+} */
+
+footer {
+  background-color: #C8C5B7;
+  display: block;
+  box-sizing: inherit;
+  padding: 50px 0 95px;
+  text-align: center;
+}
+
+#icon-images {
+  max-width: 100px;
 }

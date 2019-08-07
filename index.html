@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Care Book</title>
-    <meta charset="utf-8">
-    <link rel= "stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <div>
-        <!-- this is a commment in html -->
-        <h1>Care Book</h1>
-        <img src="images/carebookLogo.png" alt="carebook logo">
-        <h2>Keep your healthcare on track.</h2>
-      </div>
-      <div class="form">
-        <label for="name">Enter your name:</label>
-        <input type="text" id="name" value="">
-        <label for="birthday">Enter your bithday:</label>
-        <input type="date" id="birthday" value="">
-        <label for="care-select">Select care plan:</label>
-        <select id="care-select">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-          <option value="neutral">Neutral</option>
-        </select>
-        <a href="appointments.html">View my appointments.</a>
+
+<head>
+  <title>Carebook</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="scripts.js"> </script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="content-wrapper">
+
+    <div class="header-container">
+      <div class="nav-content">
+        <img class="nav-img" id="logo" src="images/WebApp_Logo.svg" alt="carebook logo">
+        <div class="nav-buttons">
+          <button class="nav-btn">About</button>
+          <button class="nav-btn">Login</button>
+        </div>
       </div>
     </div>
-  </body>
+
+    <div class="site-container">
+      <div class="container">
+        <div class="content">
+          <h1>Keep your healthcare on track.</h1>
+          <h3>Wherever you’re starting from, Carebook will help you improve and manage your health.</h3>
+          <div class="form">
+            <h3>Sign up for Carebook.</h3>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" value="">
+            <label for="birthday">Enter your bithday:</label>
+            <input type="date" id="birthday" value="">
+            <label for="care-select">Select care plan:</label>
+            <select id="care-select">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="neutral">Neutral</option>
+            </select>
+            <a href="appointments.html" class="button-main">Sign Up Now</a>
+            <a href="#" class="text-link">Already have Carebook? Sign in now!</a>
+          </div>
+        </div>
+        <img class="hero-image" src="images/medicine.svg" alt="medicine image">
+      </div>
+    </div>
+
+    <div class="content-center">
+      <h1>Stay Organized</h1>
+      <p>Click here to <a href="https://www.google.com/">stay organized!</a>
+      </p>
+      <img id="center-image" src="images/organized_image.svg" alt="stay organized">
+    </div>
+
+    <div class="site-footer">
+      <div class="footer-elements">
+        <h1>Footer-elements</h1>
+      </div>
+      <footer class="content-footer">
+      <section class="main-footer">
+      </section>
+        <p>This is a footer!</p>
+        <img id="icon-images" src="images/footer_icons.png" alt="icons">
+      </footer>
+    </div>
+  </div>
+</body>
+
 </html>
