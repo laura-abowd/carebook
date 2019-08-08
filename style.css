@@ -17,7 +17,7 @@ body {
 
 
 .header-container {
-  background-color: #C8C5B7;
+  background-color: #FAF7E8;
   margin: 0 auto;
   width: 100%;
   display: flex;
@@ -97,21 +97,33 @@ select {
   max-width: 400px;
 }
 
-.content-center {
-  background-color: #C8C5B7;
+.center {
+  background-color: inherit;
   text-align: center;
-  max-width: 940px;
+  width: 100%;
   margin: 100px auto;
   padding: 20px;
+}
+
+.homepage-center {
+  display: block;
+  background-color: inherit;
+  text-align: left;
+  height: 36px;
+}
+
+.content-center {
+
+  background-color: blue;
 }
 
 #center-image {
   max-width: 300px;
 }
 
-.site-footer {
+/* .site-footer {
   background-color: white;
-}
+} */
 
 /* .footer-elements {
   background-color: inherit;
@@ -121,8 +133,12 @@ footer {
   background-color: #C8C5B7;
   display: block;
   box-sizing: inherit;
-  padding: 50px 0 95px;
+  padding: 20px 0 95px;
   text-align: center;
+}
+
+.main-footer {
+  background-color: red;
 }
 
 #icon-images {
