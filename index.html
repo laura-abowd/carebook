@@ -5,28 +5,28 @@
   <title>Carebook</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="scripts.js"> </script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="content-wrapper">
-
     <div class="header-container">
       <div class="nav-content">
         <img class="nav-img" id="logo" src="images/carebook_logo2.svg" alt="carebook logo">
         <div class="nav-buttons">
-          <button class="nav-btn">About</button>
+          <a href="about.html" class="nav-btn">About</a>
           <button class="nav-btn">Login</button>
         </div>
       </div>
     </div>
 
     <div class="site-container">
-      <div class="container">
+      <header class="container">
         <div class="content">
           <h1>Keep your healthcare on track.</h1>
-          <h3>Wherever you’re starting from, Carebook will help you improve and manage your health.</h3>
+          <h3>Carebook will help you improve and manage your health.</h3>
           <div class="form">
             <h3>Sign up for Carebook.</h3>
             <label for="name">Enter your name:</label>
@@ -40,49 +40,46 @@
               <option value="neutral">Neutral</option>
             </select>
             <a href="appointments.html" class="button-main">Sign Up Now</a>
+
             <a href="#" class="text-link">Already have Carebook? Sign in now!</a>
           </div>
         </div>
         <img class="hero-image" src="images/medicine.svg" alt="medicine image">
-      </div>
+
+      </header>
     </div>
 
     <div class="center">
 
       <div class="homepage-center">
-        <h1>Stay Organized</h1>
+        <h1>Resources</h1>
       </div>
-        <div class="content-center" id="video">
 
-          <div class="organized"><a href="https://www.healthit.gov/how-do-i/individuals">Common Questions</a>
-            <iframe width="360" height="215" src="https://www.youtube.com/embed/UMiPW831b1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-
-          <div class="get-help"> <a href="http://www.eatingwell.com/">Healthy Eating</a>
-            <iframe width="360" height="215" src="https://www.youtube.com/embed/Gmh_xMMJ2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-
-          <div class="cdc-link"> <a href="https://www.cdc.gov/">CDC</a>
-            <iframe width="360" height="215" src="https://www.youtube.com/embed/gUSLqrEiRl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        <!-- <img id="center-image" src="images/organized_image.svg" alt="stay organized"> -->
+      <div class="content-center" id="video">
+        <div class="video-preview"><a href="https://www.healthit.gov/how-do-i/individuals" class="site-links">Common Questions</a>
+          <iframe src="https://www.youtube.com/embed/UMiPW831b1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+        <div class="video-preview"> <a href="http://www.eatingwell.com/" class="site-links">Eating Healthy</a>
+          <iframe src="https://www.youtube.com/embed/Gmh_xMMJ2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-preview"> <a href="https://www.cdc.gov/" class="site-links">CDC</a>
+          <iframe src="https://www.youtube.com/embed/gUSLqrEiRl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
-
-
     <!-- <div class="site-footer">
       <div class="footer-elements">
         <h1>Footer-elements</h1>
       </div> -->
 
-      <footer class="content-footer">
-      <section class="main-footer">
-        <p>This is a footer!</p>
-        <img id="icon-images" src="images/footer_icons.png" alt="icons">
-        </section>
-      </footer>
-    </div>
   </div>
-  </div>
+  <footer class="content-footer">
+    <!-- <section class="main-footer"> -->
+    <p>Keeping your healthcare on track since 2019!</p>
+    <!-- <img id="icon-images" src="images/footer_icons.png" alt="icons"> -->
+    <!-- </section> -->
+  </footer>
 </body>
 </html>

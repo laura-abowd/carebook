@@ -15,13 +15,15 @@ body {
   /* margin: 0 auto; */
 }
 
-
 .header-container {
-  background-color: #FAF7E8;
-  margin: 0 auto;
-  width: 100%;
+  background-color: white;
+  margin: 0 0 20px 0;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 0 rgba(93, 96, 99, 0.1);
 }
 
 .nav-content {
@@ -46,19 +48,21 @@ body {
   background-color: inherit;
 	border: none;
 	padding: 10px 15px;
-	font-weight: bolder;
-  font-size: 24px;
-  outline: none
+	font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.nav-btn:hover {
+/* .nav-btn:hover {
   text-decoration: underline;
-}
+  background-color: red;
+} */
+
 
 .hero-image {
   max-width: 500px;
   justify-content: center;
-  /* padding: 40px; */
+  padding: 20px;
 }
 
 a.button-main {
@@ -87,6 +91,7 @@ select {
 }
 
 .container {
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -118,54 +123,44 @@ select {
 
 .content-center {
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-around;
   max-width: 940px;
+  padding: 20px;
   margin: 0 auto 50px auto;
 }
 
 #video {
-  max-width: 100%;
-  height: auto;
+  display: flex;
+  flex: initial;
 }
 
-.organized {
+.video-preview {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.get-help {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+.site-links {
+  text-transform: uppercase;
+  padding: 8px;
+  margin: 10px 0px;
 
-.cdc-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #center-image {
   max-width: 300px;
 }
 
-/* .site-footer {
-  background-color: white;
-} */
-
-/* .footer-elements {
-  background-color: inherit;
-} */
-
-footer {
-  background-color: #C8C5B7;
-  display: block;
-  box-sizing: inherit;
-  padding: 20px 0 95px;
-  text-align: center;
+.content-footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: #3F3D56;
+text-align: center;
 }
 
 .main-footer {
